@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body
+		{
+			background: linear-gradient(45deg,pink,black)
+		}
+				
+		.main
+		{
+			height: 500px;
+			width: 500px;
+			background: black;
+			border-radius: 70px;
+			border:solid red;
+			position: relative;
+			overflow: hidden;
+			margin: 250px auto;
+		
+		}
+		@keyframes krinal
+		{
+			0%{transform: translate(0);}
+			50%{transform: translate(150px,490px);}
+		}
+
+		 .x
+		{
+			height: 50px;
+			width: 50px;
+			background: yellow;
+			border-radius: 50px;
+			position: absolute;
+			left: 0%;
+			transition:1s;
+			animation: krinal 4s linear infinite;
+
+
+		}
+		@keyframes a
+		{
+			0%{transform: translate(0px,0px);}
+			50%{transform: translate(400px,450px);}
+		}
+		 .y
+		{
+			height: 50px;
+			width: 50px;
+			background: green;
+			border-radius: 50px;
+			animation: a 2s linear infinite;
+
+		}
+		
+		.z
+		{
+			height: 50px;
+			width: 50px;
+			background: pink;
+			border-radius: 50px;
+			animation: krinal 3s linear infinite;
+		}
+	@keyframes b 
+		{
+			0%{transform: translate( 0px, 0px);}
+			50%{transform: translate(-490px,-200px);}
+		}
+		 .a
+		{
+			height: 50px;
+			width: 50px;
+			background: gray;
+			border-radius: 50px;
+			margin-left: 95%;
+			animation: b 1s linear infinite;
+		}
+		@keyframes c 
+		{
+			0%{transform: translate(0px,0px);}
+			50%{transform: translate(-400px,450px);}
+		}
+		.b
+				{
+			height: 50px;
+			width: 50px;
+			background: red;
+			border-radius: 50px;
+			margin-left: 95%;
+			animation: c 4s linear infinite;
+		}
+		@keyframes d 
+		{
+			0%{transform: translate(0px,0px);}
+			50%{transform: translate(-400px,450px);}
+		}
+		.c
+		{
+			height: 50px;
+			width: 50px;
+			background: coral;
+			border-radius: 50px;
+			margin-left: 95%;
+			animation: d 2s linear infinite;
+		}
+		
+		
+
+
+	</style>
+
+</head>
+<body>
+	<div class="main">
+	<div class="x"></div>
+	<div class="y"></div>
+	<div class="z"></div>
+	<div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+	</div>
+
+</body>
+</html>

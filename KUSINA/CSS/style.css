@@ -1,0 +1,1425 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+.main
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+} 
+.main .part1  
+{
+    height: 600px; 
+    width: 50%;           
+}
+.part1 .text1
+{
+    height: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top:40px ;
+    padding-left: 30px;
+}
+.part1 .text2
+{
+    height: 450px;
+    
+}
+.part1 .text2 .p1 
+{
+    height: 450px;
+    width: 50%;
+    background: url(https://technext.github.io/kusina/images/lunch-3.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 0;
+    animation: patel123 10s linear infinite;
+}
+ .brkfast
+{
+    height: 200px;  
+     display: flex; 
+}
+.brkfast .ndl 
+{
+    height: 200px;
+    width: 33.33%;
+    margin-right: 20px;
+}
+ .brkfast .ndl .ndl1  
+{
+    height: 100px;
+    width: 100px;
+    background: url(https://technext.github.io/kusina/images/breakfast-1.jpg);  
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+} 
+.brkfast .ndl .ndl2
+{
+    height: 100px;
+    width: 100px;
+    background: url(https://technext.github.io/kusina/images/breakfast-2.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+.brkfast .ndl .ndl3
+{
+    height: 100px;
+    width: 100px;
+    background: url(https://technext.github.io/kusina/images/breakfast-3.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.part1 .text2 .p2 
+{
+    height: 450px; 
+    width: 50%;
+    background: url(https://technext.github.io/kusina/images/lunch-1.jpg); 
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: -1; 
+    animation: patel 10s linear infinite;  
+}
+ @keyframes patel123
+{
+    from{z-index: 0;}
+    to{z-index: -1;}
+}
+@keyframes patel
+{
+    form{z-index: -1;}
+    to{z-index: 0;}
+} 
+.part1 .text2 .btn button
+{
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 35%;
+    color: white;
+    background: red;
+    border: none;
+    cursor: pointer;
+}
+.part1 .text2 .btn button:hover
+{
+    background: transparent;
+    border: 2px solid red;
+    color: black;
+}
+.main .part2 
+{
+    height: 600px;
+    width: 50%;
+    background-size: 100% 100%;
+    animation: krinal 7s  infinite;
+}
+.part2 .dropdown .drpdwn
+{
+    height: 100px;
+    width: 100%;
+    background: blue; 
+    
+}
+.part2 .dropdown
+{
+    
+}
+.ndl p:hover 
+{
+    color:lightslategrey;
+    cursor: pointer;
+}
+.part2 ul li
+{
+    list-style: none;
+    display: inline;
+    margin-right:20px ;  
+} 
+.part2 ul li a   
+{ 
+    text-decoration: none;
+    color: black;
+    background-size: 100% 100%;  
+    font-size: 14px;
+    font-weight: bold;   
+}
+.part2 .nav ul 
+{
+    margin-top: 80px; 
+    margin-left:30px; 
+}
+.part2 li a:hover 
+{                                                          
+    color: orangered;
+}
+@keyframes krinal 
+{ 
+    0%{background:url(https://technext.github.io/kusina/images/bg_3.jpg); background-size: 100% 100%;}
+
+    50%{background: url(https://technext.github.io/kusina/images/bg_2.jpg);background-size: 100% 100%;}
+
+    100%{background:url(https://technext.github.io/kusina/images/bg_3.jpg);background-size: 100% 100%;} 
+}
+.main1 
+{
+    height:auto ;
+}
+.content  
+{
+    height: auto;
+    width: 80%; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+}
+.content .con1  
+{
+    height: 600px;  
+    width: 40%; 
+      background: url(https://technext.github.io/kusina/images/about.jpg);   
+    background-size: 100% 100%;
+    position: relative;    
+}
+.content .con1 .plybtn 
+{
+    height: 70px;
+    width: 70px;
+    background: white; 
+    border-radius:50px ;
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    right: -30px;
+}
+
+.content .con2
+{
+    height: auto;
+    width: 60%;
+}
+.content .con2 p span
+{
+    margin-top: 50px;
+    font-size: 50px;
+    font-style:italic;
+}
+h3
+{
+    font-size: 30px;
+    margin-top: 80px;  
+}
+.content .con2 p 
+{
+    font-size: 20px;
+    margin-top:30px;
+}
+.recipe 
+{
+    height: 200px; 
+    width: 100%;
+    display: flex;
+} 
+.recipe .rcp
+{
+    height: 150px; 
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.recipe .rcp .rcp1 
+{
+    height:100px; 
+    width: 33.33%; 
+    background-image:url(https://technext.github.io/kusina/images/lunch-4.jpg);   
+    background-size: 100% 100%; 
+    margin-right: 10px; 
+    position: relative;          
+}
+ .rcp1 p                           
+{
+  position: absolute;  
+  top: 70px;        
+} 
+.recipe .rcp .rcp2   
+{
+    height:100px;
+    width: 33.33%;
+    background: url(https://technext.github.io/kusina/images/lunch-7.jpg); 
+    background-size: 100% 100%; 
+    margin-right: 10px;  
+    position: relative;        
+}
+.rcp2 p
+{
+    position: absolute;
+    top: 70px;
+}
+.recipe .rcp .rcp3
+{
+    height:100px;
+    width: 33.33%;
+    background: url(https://technext.github.io/kusina/images/lunch-6.jpg);
+    background-size: 100% 100%; 
+    margin-right: 10px;  
+    position: relative;    
+}
+.rcp3 p
+{
+    position: absolute;
+    top: 70px;
+}
+.slider 
+{
+    height: 300px;
+    width: 100%;
+    background: url(https://technext.github.io/kusina/images/bg_4.jpg);
+    background-size:cover; 
+}
+.slider .sliderm 
+{
+    height: 300px;
+    width: 80%;
+    background:;
+    margin: auto;
+    display: flex;
+}
+.slider .sliderm .sldr1 
+{
+    height: 300px;
+    width: 33.33%;
+    background:;
+} 
+.slider .sliderm .sldr1 h4 
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.slider .sliderm .sldr1 p 
+{
+    text-align: center;
+}
+.contain 
+{
+    height: auto;
+    width: 100%;
+}
+.contain .menu_part1 
+{
+    height: 150px;
+    text-align: center;
+    
+}
+.contain .menu_part1 p 
+{
+    font-size: 30px;
+    font-style: italic;
+    color: red;
+   
+}
+.contain .menu_part1 span  
+{   
+    font-size: 30px;
+    color: black;   
+} 
+
+.contain .menu_part2 
+{
+    height:auto;
+    width: 100%;   
+}
+.contain .menu_part2 .con_menu_part
+{
+    height:auto;
+    width: 80%;    
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+} 
+
+.contain .menu_part2 .con_menu_part .first
+{ 
+    height: 500px;
+    width: 33.33%;
+
+}
+.contain .menu_part2 .con_menu_part .first .first1 
+{
+    height:125px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;   
+}
+
+.contain .menu_part2 .con_menu_part .first .first2 
+{
+    height:125px;
+    width: 100%;
+    background: ;
+    display: flex;
+}
+
+.con_menu_part .first .first2 .f_left1
+{ 
+    height: 125px;
+    width: 30%;
+    background: url(https://technext.github.io/kusina/images/dinner-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.con_menu_part .first .first2 .f_right1 
+{ 
+    height: 125px;
+    width: 70%;
+    
+}
+.con_menu_part .first .first2 .f_right1 .right_up 
+{
+    height:70px;
+   
+}
+.con_menu_part .first .first2 .f_right1 .right_down
+{
+    height:55px;
+ 
+}
+.contain .menu_part2 .con_menu_part .first .first3
+{
+    height:125px;
+    width: 100%;
+    
+    display: flex;
+}
+.con_menu_part .first3 .f_left2
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dinner-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.con_menu_part .first3 .f_right2
+{
+    height: 125px;
+    width: 70%;
+    
+}
+ .contain .menu_part2 .con_menu_part .first .first3 .right_up 
+{
+    height: 70px;
+    
+}
+.contain .menu_part2 .con_menu_part .first .first3 .right_down 
+{
+    height:55px;
+    
+} 
+
+.contain .menu_part2 .con_menu_part .first .first4
+{
+    height:125px;
+    width: 100%;
+    
+}
+.contain .menu_part2 .con_menu_part .first .first4
+{
+    height:125px;
+    width: 100%;
+    
+    display: flex;
+}
+.con_menu_part .first4 .f_left3
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dinner-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.con_menu_part .first4 .f_right3
+{
+    height: 125px;
+    width: 70%;
+   
+}
+ .contain .menu_part2 .con_menu_part .first .first4 .right_up 
+{
+    height: 70px;
+    
+}
+.contain .menu_part2 .con_menu_part .first .first4 .right_down 
+{
+    height:55px;
+    
+} 
+.contain .menu_part2 .con_menu_part .second
+{ 
+    height: 500px;
+    width: 33.33%;    
+}
+.contain .menu_part2 .con_menu_part .second .second1
+{
+    height: 125px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;       
+}
+
+.contain .menu_part2 .con_menu_part .second .second2
+{
+    height: 125px;
+    width: 100%;
+    
+    display: flex;
+}
+.contain .menu_part2 .con_menu_part .second .second2 .s_left1 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dinner-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2 .con_menu_part .second .second2 .s_right1 
+{
+    height: 125px;
+    width: 70%;
+    
+} 
+.con_menu_part .second .second2 .s_right1 .right_up
+{
+    height:70px;
+    width: 100%;
+
+}
+.con_menu_part .second .second2 .s_right1 .right_down 
+{
+    height: 55px;
+    width: 100%;
+}
+.contain .menu_part2 .con_menu_part .second .second3 
+{
+    height: 125px;
+    width: 100%;
+    
+    display: flex;
+}
+.contain .menu_part2 .con_menu_part .second .second3 .s_left2 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dinner-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2 .con_menu_part .second .second3 .s_right2
+{
+    height: 125px;
+    width: 70%;
+    
+} 
+.con_menu_part .second .second3 .s_right2 .right_up 
+{
+    height: 55px;
+    
+}
+.con_menu_part .second .second3 .s_right2 .right_down 
+{
+    height: 70px;
+    
+}
+.contain .menu_part2 .con_menu_part .second .second4
+{
+    height: 125px;
+    width: 100%;
+    display: flex;
+}
+.contain .menu_part2 .con_menu_part .second .second4 .s_left3
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dinner-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2 .con_menu_part .second .second4 .s_right3 
+{
+    height: 125px;
+    width: 70%;
+}
+.con_menu_part .second .second4 .s_right3 .right_up 
+{
+    height: 55px;
+    width: 100%;
+
+} 
+.con_menu_part .second .second4 .s_right3 .right_down 
+{
+    height: 70px;
+    
+} 
+.contain .menu_part2 .con_menu_part .third
+{ 
+    height: 500px; 
+    width: 33.33%;
+    
+}
+.contain .menu_part2 .con_menu_part .third .third1 
+{
+    height: 125px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;       
+}
+
+.contain .menu_part2 .con_menu_part .third .third2
+{
+    height: 125px;
+    width: 100%;
+    
+    display: flex;
+}
+.contain .menu_part2 .con_menu_part .third .third2 .t_left1 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dinner-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2 .con_menu_part .third .third2 .t_right1
+{
+    height: 125px;
+    width: 70%;
+    
+} 
+.contain .menu_part2 .con_menu_part .third .third2 .t_right1 .right_up 
+{
+    height:55px;
+
+}
+.contain .menu_part2 .con_menu_part .third .third2 .t_right1 .right_down 
+{
+    height: 70px;
+    
+}
+.contain .menu_part2 .con_menu_part .third .third3
+{
+    height: 125px;
+    width: 100%;
+    display: flex; 
+}
+.contain .menu_part2 .con_menu_part .third .third3 .t_left2 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dinner-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2 .con_menu_part .third .third3 .t_right2 
+{
+    height: 125px;
+    width: 70%;
+}
+.con_menu_part .third .third3 .t_right2 .right_up 
+{
+    height: 55px;
+}
+.con_menu_part .third .third3 .t_right2 .right_down 
+{
+    height: 70px;
+    
+}
+.contain .menu_part2 .con_menu_part .third .third4 
+{
+    height: 125px;
+    width: 100%;
+    display: flex;
+}
+.contain .menu_part2 .con_menu_part .third .third4 .t_left3 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dinner-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2 .con_menu_part .third .third4 .t_right3
+{
+    height: 125px;
+    width: 70%;
+    
+} 
+.con_menu_part .third .third4 .t_right3 .right_up 
+{
+    height: 55px;
+    
+}
+.con_menu_part .third .third4 .t_right3 .right_down 
+{
+    height: 70px;    
+}
+.contain .menu_part2 .con_menu_part .s_first 
+{
+    height: 500px;
+    width: 33.33%;
+ 
+} 
+.contain .menu_part2  .con_menu_part .s_first .s_first1 
+{
+    height: 125px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first2 
+{
+    height: 125px;
+    width: 100%;
+   
+    display: flex;
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first2 .sf_left1
+{
+    height: 125px;
+    width: 30%;
+    background: url(https://technext.github.io/kusina/images/dessert-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first2 .sf_right1
+{
+    height: 125px;
+    width: 70%;
+   
+} 
+ .contain .menu_part2  .con_menu_part .s_first .s_first2 .right_up
+{
+    height: 55px;
+    
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first2 .right_down
+{
+    height: 70px;
+    
+} 
+.contain .menu_part2  .con_menu_part .s_first .s_first3
+{
+    height: 125px;
+    width: 100%;
+
+    display: flex;
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first3 .sf_left2 
+{
+    height: 125px;
+    width: 30%;
+    background: url(https://technext.github.io/kusina/images/dessert-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first3 .sf_right2 
+{
+    height: 125px;
+    width: 70%;
+
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first3 .sf_right2 .right_up 
+{
+    height: 55px;
+    
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first3 .sf_right2 .right_down 
+{
+    height: 70px;
+
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first4 
+{
+    height: 125px;
+
+    display: flex;
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first4 .sf_left3 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dessert-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first4 .sf_right3 
+{
+    height: 125px;
+    width: 70%;
+   
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first4 .sf_right3 .right_up 
+{
+    height: 55px;
+    
+}
+.contain .menu_part2  .con_menu_part .s_first .s_first4 .sf_right3 .right_down 
+{
+    height: 70PX;
+}
+.contain .menu_part2 .con_menu_part .s_second 
+{
+    height: 500px;
+    width: 33.33%;   
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second1 
+{
+    height: 125px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second2
+{
+    height: 125px;
+    
+    display: flex;
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second2 .ss_left1 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dessert-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second2 .ss_right1 
+{
+    height: 125px;
+    width: 70%;
+    
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second2 .right_up 
+{
+    width: 100%;
+    height: 55px;
+    
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second2 .right_down 
+{
+    height: 70px;
+    width: 100%;
+    
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second3 
+{
+    height: 125px;
+    
+    display: flex;
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second3 .ss_left2 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dessert-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second3  .ss_right2 
+{
+    height: 125px;
+    width: 70%;
+    
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second3 .right_up 
+{
+    height: 55px;
+    
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second3 .right_down 
+{
+    height: 70px;
+
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second4
+{
+    height: 125px;
+    
+    display: flex;
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second4 .ss_left3 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dessert-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second4 .ss_right3 
+{
+    height: 125px;
+    width: 70%;
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second4 .right_up 
+{
+    height: 55px;
+    
+}
+.contain .menu_part2  .con_menu_part .s_second .s_second4 .right_down 
+{
+    height: 70px;
+    
+}
+.contain .menu_part2 .con_menu_part .s_third 
+{
+    height: 500px;
+    width: 33.33%;   
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third1
+{
+    height: 125px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third2
+{
+    height: 125px;
+    display: flex;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third2 .st_left1 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dessert-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third2 .st_right1 
+{
+    height: 125px;
+    width: 70%;
+    
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third2 .right_up 
+{
+    height: 55px;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third2 .right_down 
+{
+    height: 70px;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third3
+{
+    height: 125px;
+    display: flex;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third3 .st_left2 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dessert-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third3 .st_right2 
+{
+    height: 125px;
+    width: 70%;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third3 .right_up 
+{
+    height: 55px;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third3 .right_down 
+{
+    height: 70px;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third4
+{
+    height: 125px;
+    display: flex;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third4 .st_left3 
+{
+    height: 125px;
+    width: 30%;
+    background:  url(https://technext.github.io/kusina/images/dessert-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third4 .st_right3
+{
+    height: 125px;
+    width: 70%;
+ 
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third4 .right_up 
+{
+    height: 55px;    
+}
+.contain .menu_part2  .con_menu_part .s_third .s_third4 .right_down 
+{
+    height: 70px;    
+}
+.con_menu_part button .btn 
+{
+    text-align: center;
+}
+.btn button 
+{
+    margin-top: 20px;
+    margin-left: 40%;
+    padding: 15px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+.content2 
+{
+    height: auto;
+    width: 100%;
+    background: url(https://technext.github.io/kusina/images/bg_5.jpg);
+    margin-top: 20px;
+}
+.content2 .mein_content2
+{
+    height: 700px;
+    width: 50%;
+    margin: auto;
+}
+.content2 .txt 
+{
+    height: 150px;
+    width: 100%;
+}
+.txt p 
+{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+}
+.txt h4 
+{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.content2 .img 
+{
+    height: 200px;
+    width: 100%;  
+}
+.img .img1 
+{
+    height: 200px;
+    width: 200px;
+    background: url(https://technext.github.io/kusina/images/person_1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+}
+.img1 .coma 
+{
+    height: 70px;
+    width: 70px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+}
+.mein_content2 .para 
+{
+  height: auto;
+  margin-top: 50px;
+  font-size: 20px;  
+  color: white; 
+}
+.mein_content2 .txt1 
+{
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.chef_part 
+{
+    height: auto;
+    width: 100%; 
+}
+.chef_part .title 
+
+{
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+.chef_part .main_chef 
+{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chef_part .main_chef .chef1 
+{
+    height: 500px;
+    width:25%;
+}
+.chef_part .main_chef .chef1 .image1 
+{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    background: url(https://technext.github.io/kusina/images/chef-4.jpg);
+    background-size: 100% 100%;
+}
+.chef1 .name1 
+{
+    text-align: center;
+}
+.icons1
+{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.chef_part .main_chef .chef2
+{
+    height: 500px;
+    width:25%;
+}
+.chef_part .main_chef .chef2 .image2 
+{
+    height: 300px;
+    background: url(https://technext.github.io/kusina/images/chef-2.jpg);
+    background-size: 100% 100%;
+    width: 80%;
+    margin: auto;
+}
+.chef_part .main_chef .chef2 .name2 
+{
+    text-align: center;
+}
+.chef_part .main_chef .chef3
+{
+    height: 500px;
+    width:25%;
+}
+.chef_part .main_chef .chef3 .image3 
+{
+    height: 300px;
+    background: url(https://technext.github.io/kusina/images/chef-3.jpg);
+    background-size: 100% 100%;
+    width: 80%;
+    margin: auto;
+}
+.chef_part .main_chef .chef3 .name3 
+{
+    text-align: center;
+}
+.chef_part .main_chef .chef4
+{
+    height: 500px;
+    width:25%;
+}
+.chef_part .main_chef .chef4 .image4 
+{
+    height: 300px;
+    background: url(https://technext.github.io/kusina/images/chef-1.jpg);
+    background-size: 100% 100%;
+    width: 80%;
+    margin: auto;
+}
+.chef_part .main_chef .chef4 .name4 
+{
+    text-align: center;
+}
+.image_form 
+{
+    height: auto;
+    width: 100%;    
+}
+.image_form .image_form_main 
+{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image_form .image_form_main .images 
+{
+    height: 600px;
+    width: 50%;
+    background: url(https://technext.github.io/kusina/images/chef-4.jpg);
+    background-size: 100% 100%;
+}
+.image_form .image_form_main .form 
+{
+    height: 600px;
+    width: 50%;
+}
+.form .title1 
+{
+    height: 100px;   
+}
+.form .title1 p 
+{
+    font-size: 30px;
+    margin-left: 20px;
+    font-style: oblique;
+}
+.form .title1 h2 
+{
+    font-size: 40px;
+    margin-left: 20px; 
+}
+.form1 
+{
+    height: 400px;
+    display: flex;
+}
+.form1 .left_form 
+{
+    height: 400px;
+    width: 50%;
+} 
+.form1 .right_form
+{ 
+    height: 400px;
+    width: 50%;
+} 
+.left_form h3  
+{
+    font-size: 20px;
+    margin-top: 0;
+    
+}
+.form1 .left_form  input[type=text]
+{
+    padding: 10px;
+    margin-left: 20px;
+}
+.right_form h3
+{
+    font-size: 20px;
+    margin-top: 0;
+}
+.form .right_form input[type=text]
+{
+    padding: 10px;
+    margin-left: 20px;
+}
+.butn  button 
+{
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    background: darkred;
+    border: none;
+    color: white;
+}
+.footer 
+{
+    height: auto;
+    width: 100%;
+    background:black;
+}
+.footer .footer_main 
+{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .footer_main .share 
+{
+    height: 400px;
+    width:25%;
+}
+.r_name1 
+{
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: white;
+}
+.footer .footer_main .share .r_para 
+{
+ font-size: 15px;
+ font-weight: bold;
+ color: white;
+}
+.r_icons i 
+{
+    height: 50px;
+    width: 50px;
+    background: orangered;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.footer .footer_main .hours 
+{
+    height: 400px;
+    width:25%;
+}
+.footer .footer_main .hours .time_table 
+{
+    height:300px;
+    width: 100%;
+    display: flex;
+}
+.footer .footer_main .hours .time_table .days 
+{
+    height: 300px;
+    width: 50%;
+}
+.hours .time_table .days p 
+{
+    margin-top: 10px;
+    color: white;
+}
+.footer .footer_main .hours .time_table .time 
+{
+    height: 300px;
+    width: 50%;
+}
+.hours .time_table .time p 
+{
+    margin-top: 10px;
+    color: white;
+}
+.footer .footer_main .newsltr 
+{
+    height: 400px;
+    width:25%;
+}
+.footer .footer_main .newsltr .r_para2 
+{
+    margin-top: 10px;
+    height: 70px;
+    width: 100%;
+    color: white;
+    font-weight:bold;
+}
+.r_email button 
+{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: lightslategrey;
+    border: none;
+    margin-left: 50px;
+}
+.sub button 
+{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 5px;
+    background: whitesmoke;
+    border: none;
+    margin-left: 50px;
+}
+.footer .footer_main .insta 
+{
+    height: 400px;
+    width:25%;
+}
+.footer .footer_main .insta .pictures
+{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.insta .pictures .pic1 
+{
+    height: 200px;
+    width: 33.33%;
+}
+.pc1 
+{
+    height: 100px;
+    background: url(https://technext.github.io/kusina/images/insta-1.jpg);
+    background-size: 100% 100%;
+}
+.pc2 
+{
+    height: 100px;
+    background: url(https://technext.github.io/kusina/images/insta-2.jpg);
+    background-size: 100% 100%;
+}
+.insta .pictures .pic2 
+{
+    height: 200px;
+    width: 33.33%;
+}
+.pc3 
+{
+    height: 100px;
+    background: url(https://technext.github.io/kusina/images/insta-3.jpg);
+    background-size: 100% 100%;
+}
+.pc4
+{
+    height: 100px;
+    background: url(https://technext.github.io/kusina/images/insta-4.jpg);
+    background-size: 100% 100%;
+}
+.insta .pictures .pic3 
+{
+    height: 200px;
+    width: 33.33%;
+}
+.pc5
+{
+    height: 100px;
+    background: url(https://technext.github.io/kusina/images/insta-5.jpg);
+    background-size: 100% 100%;
+}
+.pc6
+{
+    height: 100px;
+    background: url(https://technext.github.io/kusina/images/insta-6.jpg);
+    background-size: 100% 100%;
+}
+.footer_end 
+{
+    height: 100px;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}

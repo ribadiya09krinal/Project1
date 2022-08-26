@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<title></title>
+	<style type="text/css">
+		.main
+		{
+			height: 400px;
+			width: 400px;
+			background: yellow;
+			margin: 200px auto;
+			position: relative;
+			transition: 1s;
+		}
+
+		.main::before 
+		{
+			content: "";
+			height: 400px;
+			width: 400px;
+			background-color: greenyellow;
+			position: absolute;
+			opacity: .5;
+			left: -100%;
+			top: -100%;
+			transition: .5s;
+			z-index: 1;
+		}
+
+		.main:hover::before
+		{
+			position: absolute;
+			left: 0%;
+			top: 0%;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="main"></div>
+
+</body>
+</html>

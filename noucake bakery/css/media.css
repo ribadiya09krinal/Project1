@@ -1,0 +1,262 @@
+@media(max-width:1100px)
+{
+    .market{width: 50%;}
+    .now_btn{width: 50%;}
+
+    .header1{width: 40%; font-size: 13px;}
+    .logo .logo_round{width: 20%;height: 100px; width: 100px;} 
+    .header .header2{width: 40%; font-size: 13px;} 
+
+    .content2_text .line_2{width: 80%; font-size: 30px;}
+
+    .logos_main .logos1{width: 30%;} 
+     .logos_main .logos2{width: 30%;} 
+     .logos_main .logos3{width: 30%;} 
+     .logos_main .logos4{width: 30%;} 
+     .logos_main .logos5{width: 30%;} 
+     .logos_main .logos6{width: 30%;} 
+
+     .footer_part1_logo .vanila_logo{height: 100px; width: 100px;}
+     .email{height: 30px; margin-top: 30px;}
+     .email input {width: 100%; font-size: 13px; padding: 5px;} 
+     .footer1_text1{font-size: 12px;} 
+     .footer_images_text{font-size: 12px;}
+     .footer1_text_icons i{margin-left: 15px;}
+}
+
+@media(max-width:900px)
+{
+    .market{width: 50%;}
+    .now_btn{width: 50%;}
+    .buy button{width: 70px;margin-left: 75%;}
+
+    .new_york_no {width: 80%;}
+
+    .header1{width: 50%; font-size: 13px; font-size: 11px;}
+    .logo .logo_round{width: 10%;height: 70px; width: 70px;} 
+    .header .header2{width: 40%; font-size: 11px;}
+
+    .image_text_first{font-size: 25px;}
+    .image_para{font-size: 12px;} 
+
+    .cake_image{width: 40%;}
+    .cake_text{width: 60%;} 
+
+    .content_main  .content_first  {width: 100%; font-size: 20px;}
+    .content_second .content_small_second  .line_1{width: 30%;}
+    .content_second .content_small_second  .line_2{width: 70%; font-size: 20px;}
+    .content_second .content_small_second  .line_3 {width: 30%;} 
+    .content_third_1{width: 50%;} 
+    .content_third_1 .price_1{margin-left: 50px;}
+    .content_third_2 {width: 50%;} 
+    .content_third_2 .price_2{margin-left: 50px;}
+    .content_third_3 {width: 50%;} 
+    .font_3 h4{font-size: 15px;} 
+    .content_third_4 {width: 50%;} 
+    .font_4 h4{font-size: 15px;}
+
+    .content_text_1 p{font-size: 20px;}
+    .content2_text  .line_1 {width: 30%;}
+    .content2_text .line_2{width: 80%; font-size: 23px;}
+    .content2_text .line_3 {width: 30%;}
+     .content2_images_main_image1{width: 100%;} 
+     .content2_images_main_image2{width: 100%; margin-top: 30px;} 
+
+     .part1_text1 p{font-size: 30px;}
+     .part2_text1 p{font-size:30px;}
+
+     .images_para h4{font-size: 23px;}
+
+     .logos_main .logos1{width: 30%;} 
+     .logos_main .logos2{width: 30%;} 
+     .logos_main .logos3{width: 30%;} 
+     .logos_main .logos4{width: 30%;} 
+     .logos_main .logos5{width: 30%;} 
+     .logos_main .logos6{width: 30%;} 
+
+     .footer_part1_logo .vanila_logo{height: 100px; width: 100px;}
+     .email{height: 30px; margin-top: 30px;}
+     .email input {width: 100%; font-size: 13px; padding: 5px;} 
+
+     .footer_part1_main{width: 100%;}
+     .footer_images_text{font-size: 15px;}
+     .footer_images{width: 60%; margin: auto;}
+     .footer_time{width: 100%;}
+     .footer_part2_main{width: 100%;}
+     .footer1_text{width: 100%;} 
+     .footer1_icons{width: 100%;} 
+
+     .forms{display: none;}
+     .maps{height: 400px;}
+
+}
+
+@media(max-width:700px) 
+{
+    .market{width: 50%;}
+    .now_btn{width: 50%;}
+    .buy button{width: 70px;margin-left: 65%;}
+
+    .no_text {width: 100%;}
+    .blank1{width: 0px;}
+    .new_york_no {width: 100%;}
+    .serch{width: 50%;border-bottom: 1px solid lightgray; height:20px;}
+    .blank2{width: 0px;}
+
+    .header1{ display: none;} 
+    .logo .logo_round{width: 10%;height: 70px; width: 70px;margin-left: 300px;}   
+     .header .header2{display: none;} 
+
+     .image_text_first{font-size: 25px;}
+    .image_para{font-size: 15px;} 
+
+    .cake_image{width: 100%;}
+    .cake_text{width: 100%;} 
+
+    .content_main  .content_first  {width: 100%; font-size: 20px;}
+    .content_second .content_small_second  .line_1{width: 30%;}
+    .content_second .content_small_second  .line_2{width: 70%; font-size: 20px;}
+    .content_second .content_small_second  .line_3 {width: 30%;} 
+    .content_third_1{width: 50%;} 
+    .content_third_1 .price_1{margin-left: 0px;}
+    .content_third_2 {width: 50%;} 
+    .content_third_2 .price_2{margin-left: 0px;}
+    .content_third_3 {width: 50%;} 
+    .font_3 h4{font-size: 15px;} 
+    .content_third_4 {width: 50%;} 
+    .font_4 h4{font-size: 15px;}
+    
+    .content2_para h2{font-size: 20px;}
+    .content2_para p{font-size: 16px;}
+    .content2_circle .circle1{margin-left: 9px;}
+
+    .content_text_1 p{font-size: 20px;}
+    .content2_text  .line_1 {width: 30%;}
+    .content2_text .line_2{width: 80%; font-size: 17px;}
+    .content2_text .line_3 {width: 30%;}
+     .content2_images_main_image1{width: 100%;} 
+     .content2_images_main_image2{width: 100%; margin-top: 30px;}
+
+     .cakes_info_main .cakes_info_part1 {width: 100%;}
+     .cakes_info_main .cakes_info_part2 {width: 100%;}
+
+     .ceo_info_main .baker_info{width: 100%;}
+     .ceo_info_main .ceo_founder1{width: 100%;}
+     .ceo_info_main .ceo_founder2{width: 100%;}
+
+     .title2{width: 100%;}
+     .text1{ width: 100%;  font-size: 25px;}
+     .images_image1{width: 100%;}
+     .images_image1_image {width: 100%;}
+     .images_image2{width: 100%;}
+     .images_image2_image1 {width: 100%; margin-top: 50px;}
+     .images_image2_image2{width: 100%;}
+
+     .logos_main .logos1{width: 30%;} 
+     .logos_main .logos2{width: 30%;} 
+     .logos_main .logos3{width: 30%;} 
+     .logos_main .logos4{width: 30%;} 
+     .logos_main .logos5{width: 30%;} 
+     .logos_main .logos6{width: 30%;} 
+
+     .footer_part1_text1{width: 100%;} 
+     .footer_part1_text1{height: 150px;}
+     .footer_part1_logo{width: 100%;}
+     .footer_part1_logo{height: 150px;}
+     .footer_part1_logo .vanila_logo{height: 100px; width: 100px;}
+     .footer_part1_text2{width: 100%;} 
+     .email input {width: 100%; font-size: 13px;} 
+
+     .footer_part1_main{width: 100%;}
+     .footer_images{width: 100%;}
+     .footer_time{width: 100%;}
+     .footer_part2_main{width: 100%;}
+     .footer1_text{width: 100%;}
+     .footer1_icons{width: 100%;}
+
+     .forms{display: none;}
+     .maps{height: 300px;}
+}
+
+@media(max-width:500px) 
+{
+    .market{width: 50%;}
+    .now_btn{width: 50%;} 
+
+    
+    .blank1{width: 0px;}
+    .new_york_no {width: 100%;font-size: 13px;}
+    .serch{width: 50%;border-bottom: 1px solid lightgray;}
+    .blank2{width: 0px;}
+
+    .image_text_first{font-size: 20px;}
+    .image_para{font-size: 10px;} 
+
+    .cake_image{width: 100%;}
+    .cake_text{width: 100%;}
+    
+    .content_main  .content_first  {width: 100%; font-size: 20px;}
+    .content_second .content_small_second  .line_1{width: 20%;}
+    .content_second .content_small_second  .line_2{width: 70%; font-size: 15px;}
+    .content_second .content_small_second  .line_3 {width: 20%;} 
+    .content_third_1{width: 50%;} 
+    .content_third_1 .price_1{margin-left: 0px;}
+    .content_third_2 {width: 50%;} 
+    .content_third_2 .price_2{margin-left: 0px;}
+    .content_third_3 {width: 50%;} 
+    .font_3 h4{font-size: 15px;} 
+    .content_third_4 {width: 50%;} 
+    .font_4 h4{font-size: 15px;}
+    .font_4 p {margin-top: 15px;}
+
+    .content2_para h2{font-size: 15px;}
+    .content2_para p{font-size: 12px;}
+    .content2_circle .circle1{margin-left: 9px;}
+
+    .content_text_1 p{font-size: 15px;}
+    .content2_text  .line_1 {width: 30%;}
+    .content2_text .line_2{width: 80%; font-size: 15px;}
+    .content2_text .line_3 {width: 30%;}
+     .content2_images_main_image1{width: 100%;} 
+     .content2_images_main_image2{width: 100%; margin-top: 30px;} 
+     
+     .cakes_info_main .cakes_info_part1 {width: 100%;}
+     .cakes_info_main .cakes_info_part2 {width: 100%;}
+
+     .ceo_info_main .baker_info{width: 100%;}
+     .ceo_info_main .ceo_founder1{width: 100%;}
+     .ceo_info_main .ceo_founder2{width: 100%;}
+
+     .title2{width: 100%;}
+     .text1{ width: 100%;  font-size: 25px;}
+     .images_image1{width: 100%;}
+     .images_image1_image {width: 100%;}
+     .images_image2{width: 100%;}
+     .images_image2_image1 {width: 100%; margin-top: 50px;}
+     .images_image2_image2{width: 100%;}
+
+     .logos_main .logos1{width: 50%;} 
+     .logos_main .logos2{width: 50%;} 
+     .logos_main .logos3{width: 50%;} 
+     .logos_main .logos4{width: 50%;} 
+     .logos_main .logos5{width: 50%;} 
+     .logos_main .logos6{width: 50%;} 
+
+     .footer_part1_text1{width: 100%;} 
+     .footer_part1_text1{height: 150px;}
+     .footer_part1_logo{width: 100%;}
+     .footer_part1_logo{height: 150px;}
+     .footer_part1_logo .vanila_logo{height: 100px; width: 100px;}
+     .footer_part1_text2{width: 100%;} 
+     .email input {width: 100%; font-size: 13px;} 
+     
+     .footer_part1_main{width: 100%;}
+     .footer_images{width: 100%;}
+     .footer_time{width: 100%;}
+     .footer_part2_main{width: 100%;}
+     .footer1_text{width: 100%;}
+     .footer1_icons{width: 100%;}
+
+     .forms{display: none;}
+     .maps{height: 300px;}
+} 

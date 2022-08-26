@@ -1,0 +1,2041 @@
+
+*{box-sizing: border-box; margin: 0; padding: 0;}
+.start 
+{
+    height: auto;
+    width: 100%;
+    /* position: fixed; */
+    display: flex;
+}
+.market 
+{
+    height: 50px;
+    width: 50%;
+    background: black;
+    display: flex;
+}
+.leaf_icon, .market_text
+{
+    font-size: 30px;
+    color: green;
+    line-height: 50px;
+}
+.market_text span
+{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+} 
+.now_btn 
+{
+    height: 50px;
+    width: 50%;
+    background: black;   
+}  
+.buy button 
+{
+    height: 30px;
+    margin-left: 85%;  
+    margin-top: 10px;
+    padding: 5px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+.no_text 
+{
+    height: 30px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+} 
+.blank1 
+{
+    height: 30px;
+    width: 10%;
+
+} 
+.new_york_no 
+{
+    height: 30px;
+    width: 70%;
+}
+.serch 
+{
+    height: 30px;
+    width: 10%;
+    display: flex;
+}
+.eur 
+{
+    height: 30px;
+    width: 70%;
+    text-align: center;
+    border-left: 1px solid lightgrey;
+}
+.search_bar 
+{
+    height: 30px;
+    width: 30%;
+    text-align: center;
+    border-right: 1px solid lightgrey;
+}
+.blank2 
+{
+    height: 30px;
+    width: 10%;
+}
+.header 
+{
+    height: 70px;
+    width: 100%;
+    background: ;
+    display: flex;
+}
+.header1 
+{
+    height: 70px;
+    width: 40%;
+    background: ;
+}
+.header1 ul 
+{
+  margin: 0;
+  padding: 0;  
+}
+.header1 ul li 
+{
+    display: inline;  
+    list-style: none;
+    margin-left: 30px;
+}
+.header1 ul li a 
+{
+    text-decoration: none;
+    line-height: 60px;
+    color: black;
+}
+/* .header a:hover 
+{
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 20px;
+} */
+.header .logo 
+{
+    height: 70px;
+    width: 20%;
+    background: ;
+    position: relative;
+}
+.logo .logo_round 
+{
+    height: 150px;
+    width: 150px;
+    background: url(http://warethemes.com/wordpress/bakery/wp-content/uploads/2017/05/logo-1.png);
+    background-size: 100% 100%;
+    left: 60px;
+    position: absolute;
+}
+.header .header2 
+{
+    height: 70px;
+    width: 40%;
+    background: ;
+}
+.header2 ul 
+{
+  margin: 0;
+  padding: 0;  
+}
+.header2 ul li 
+{
+    display: inline;  
+    list-style: none;
+    margin-left: 30px;
+}
+.header2 ul li a 
+{
+    text-decoration: none;
+    line-height: 60px;
+    color: black;
+}
+.main_image 
+{
+    height: 500px;
+    width: 100%;
+    background: url(https://media.istockphoto.com/photos/sprinkles-picture-id585303220?k=20&m=585303220&s=612x612&w=0&h=xzQuFqxWxBibovnn1mbIKK2o3ipz-JGnj_oIRyLwpCY=);
+    background-size: cover; 
+} 
+.main_image_text 
+{
+    height: 500px;
+    width: 70%;
+    margin: auto;
+}
+
+.image_text_first 
+{
+    height: auto;
+    width: 100%;
+    font-size: 40px; 
+    padding-top: 100px;
+    text-align: center; 
+}
+.image_para 
+{
+    height: 100px;
+    text-align: center;
+}
+.image_btn 
+{
+    height: 50px;
+    text-align: center;    
+}
+.image_btn button 
+{
+    padding: 10px;
+    border-radius: 20px; 
+    border: none;
+    background: lightcoral ;
+}
+.slider 
+{
+    height: auto;
+    width: 100%;
+    background: ;
+}
+.slider_main 
+{
+    height: auto;
+    width: 80%;
+    background: ;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px; 
+} 
+.cake_image 
+{
+    height: 400px;
+    width: 50%;
+    background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/counter-555x431.png);
+    background-size: 100% 100%;
+}
+.cake_text 
+{
+    height: 400px;
+    width: 50%;
+    background:;
+}
+.text_frst 
+{
+    height: 60px;
+    background: ; 
+}
+.text_frst h2 
+{
+    text-align: center;
+    color:palevioletred;
+    font-style: italic;
+}
+.text_frst p 
+{
+    text-align: center;
+    font-size: 17px;
+}
+.text_scnd  
+{
+    height: 50px;
+    background: ;
+}
+.text_scnd p
+{
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}
+.text_scnd span 
+{
+    font-size: 40px;
+    color: gray;
+}
+.text_thrd 
+{
+    height: 30px;
+    width: 100%;
+    background: ;
+    line-height: 40px;
+    display: flex;
+}
+.text_thrd .text_thrd_one 
+{
+    height: 30px;
+    width: 50%;
+    padding-left: 10%;
+    color:gray;
+}
+.text_thrd .text_thrd_second 
+{
+    height: 30px;
+    width: 50%;
+    color: gray;
+    padding-left: 20%;
+}
+span 
+{
+    font-weight: bold;
+    color: black; 
+}
+.text_four 
+{
+    height: 15px;
+    width: 80%;
+    background: palevioletred;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+} 
+.text_five 
+{
+    height: 100px;
+    width: 80%;
+    background: ;
+    margin: auto;
+    display: flex;
+}
+.text_five_one , .text_five_second ,.text_five_third ,.text_five_four ,.text_five_five
+{
+    height:100px;
+    width: 20%;
+    background: ;
+    text-align: center;
+}
+.text_six 
+{
+    height: 100px;
+    width: 100%;
+    background: ;
+    text-align: center;
+    padding-top:30px ;
+}
+.text_six button
+{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background: lightcoral;
+}
+.content
+{
+    height: auto;
+    width: 100%;
+}
+.content_main 
+{
+    height: auto;
+    width: 80%;
+    margin: auto;
+} 
+.content_main  .content_first 
+{
+    height: 50px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-style:italic;
+    font-weight: bold;
+}
+.content_main .content_second 
+{
+    height: 70px;
+    width: 100%;    
+}
+.content_second  .content_small_second 
+{
+    height: 70px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+.content_second .content_small_second  .line_1 
+{
+    height: 20px;
+    width: 20%;
+    background: grey;
+    margin: auto;
+
+}
+.content_second .content_small_second  .line_2 
+{
+    height: 70px;
+    width: 50%;
+    background: ;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    line-height: 70px; 
+
+    
+}
+.content_second .content_small_second  .line_3 
+{
+    height: 20px;
+    width: 20%;
+    background: grey;
+    margin: auto;
+
+    
+}
+.content_main .content_third 
+{
+    height: auto;
+    width: 100%;
+    background: ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_third_1 
+{
+    height: 350px;
+    width: 25%;
+    background: ;
+} 
+.content_third_1 .images_1 
+{
+    height: 200px;
+    width: 80%;
+    background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/img-cake-21-524x566.jpg);
+    background-size: 100% 100%;
+    margin-right: 20px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+} 
+.image_box1 
+{
+    height: 50px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    background: transparent;
+    position: absolute;
+    bottom: 70px; 
+     transition: 0.50s;
+     opacity: 0;  
+}
+.images_1:hover .image_box1
+        {
+            bottom:100px;
+            opacity: 1; 
+        }
+.box1 
+        {
+            height: 50px;
+            width: 20%;
+            background: black;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 50px;
+             font-size: 20px;
+            margin-left: 10px; 
+                      
+        }
+        .box1 i:hover
+        {
+            animation: krinal 0.70s ;
+        }
+        .box1:hover 
+        {
+            background: tomato;
+        }
+        .box2 
+        {
+            height: 50px;
+            width: 20%;
+            background: black;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .box2 i:hover
+        {
+            animation: krinal 0.70s ;
+        }
+        .box2:hover 
+        {
+            background: tomato;
+        }
+        .box3 
+        {
+            height: 50px;
+            width: 20%;
+            background: black;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .box3 i:hover
+        {
+            animation: krinal 0.70s ;
+        }
+        .box3:hover 
+        {
+            background: tomato;
+        }
+        .box4 
+        {
+            height: 50px;
+            width: 20%;
+            background: black;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .box4 i:hover
+        {
+            animation: krinal 0.70s ;
+        }
+        .box4:hover 
+        {
+            background: tomato;
+        } 
+        @keyframes krinal 
+        {
+           from{transform: rotate(0);}
+           from{transform: rotate(360deg);}
+        }
+        
+.content_third_1 .font_1 
+{
+    height: 50px;
+    width: 80%;
+    background: ;
+    margin: auto;
+} 
+.font_1 p
+{
+    text-align: center;
+    font-size: 13px;
+}
+.font_1 h4 
+{
+    text-align: center;
+    font-size: 16px;
+}
+.content_third_1 .star_1 
+{
+    height: 30px;
+    width: 80%;
+    background: ;
+    margin: auto;
+    text-align: center;
+}
+.content_third_1 .price_1 
+{
+    height: 40px;
+    width: 80%;
+    background: ;
+    margin: auto;
+    display: flex;
+}
+.price_1 .p1 
+{
+    text-decoration: line-through;
+    padding-left:60px ;
+}
+.price_1 .p2 
+{
+    padding-left: 10px;
+} 
+.content_third_2
+{
+    height: 350px;
+    width: 25%;
+    background:;
+}
+.content_third_2 .images_2 
+{
+    height: 200px;
+    width: 80%;
+    background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/img-cake-12-524x566.jpg);
+    background-size: 100% 100%;
+    margin: auto;
+    position: relative; 
+    cursor: pointer;
+}
+ .images_2 .image_box2
+{
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    color: white;
+    position: absolute;
+    bottom: 70px; 
+     transition: 0.50s;
+     opacity: 0;  
+}
+.images_2:hover .image_box2
+        {
+            bottom:100px;
+            opacity: 1; 
+        }
+.content_third_2 .font_2 
+{
+    height: 50px;
+    width: 80%;
+    background: ;
+    margin: auto;
+}
+.font_2 p
+{
+    text-align: center;
+    font-size: 13px;
+}
+.font_2 h4 
+{
+    text-align: center;
+    font-size: 16px;
+} 
+.content_third_2 .star_2 
+{
+    height: 30px;
+    width: 80%;
+    background: ;
+    margin: auto; 
+    text-align: center;
+}
+.content_third_2 .price_2 
+{
+    height: 40px;
+    width: 80%;
+    background: ;
+    margin: auto;
+    display: flex;
+}
+.price_2 .p1 
+{
+    text-decoration: line-through;
+    padding-left:60px ;
+}
+.price_2 .p2 
+{
+    padding-left: 10px;
+} 
+.content_third_3 
+{
+    height: 350px;
+    width: 25%;
+    background: ;
+}
+.content_third_3 .images_3 
+{
+    height: 200px;
+    width: 80%;
+    background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/img-cake-17-524x566.jpg);
+    background-size: 100% 100%;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}
+.images_3 .image_box3 
+{
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 70px; 
+     transition: 0.50s;
+     opacity: 0;  
+}
+.images_3:hover .image_box3
+        {
+            bottom:100px;
+            opacity: 1; 
+        }
+.content_third_3 .font_3 
+{
+    height: 50px;
+    width: 80%;
+    background: ;
+    margin: auto;
+} 
+.font_3 p
+{
+    text-align: center;
+    font-size: 13px;
+}
+.font_3 h4 
+{
+    text-align: center;
+    font-size: 16px;
+} 
+.content_third_3 .star_3 
+{
+    height: 30px;
+    width: 80%;
+    background: ;
+    margin: auto;
+    text-align: center;
+}
+.content_third_3 .price_3 
+{
+    height: 40px;
+    width: 80%;
+    background: ;
+    margin: auto;
+}
+.price_3 .p2 
+{
+    text-align: center; 
+} 
+.content_third_4
+{
+    height: 350px;
+    width: 25%;
+    background: ;
+}
+
+.content_third .images_4 
+{
+    height: 200px;
+    width: 80%;
+    background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/img-cake-16-524x566.jpg);
+    background-size: 100% 100%;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}  
+.image_box4 
+{
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    color: white;
+    position: absolute;
+    bottom: 70px; 
+     transition: 0.50s;
+     opacity: 0;  
+}
+.images_4:hover .image_box4
+        {
+            bottom:100px;
+            opacity: 1; 
+        }
+
+
+.content_third_4 .font_4
+{
+    height: 50px;
+    width: 80%;
+    background: ;
+    margin: auto;
+} 
+.font_4 p
+{
+    text-align: center;
+    font-size: 13px;
+}
+.font_4 h4 
+{
+    text-align: center;
+    font-size: 16px;
+} 
+.content_third_4 .star_4
+{
+    height: 30px;
+    width: 80%;
+    background:;
+    margin: auto;
+    text-align: center;
+}
+.content_third_4 .price_4
+{
+    height: 40px;
+    width: 80%;
+    background: ;
+    margin: auto;
+}
+.price_4 .p2 
+{
+    text-align: center; 
+} 
+
+.content2 
+{
+    height: 500px;
+    width: 100%;
+    background: url(https://media.istockphoto.com/photos/fresh-cherry-on-black-slate-table-ripe-sweet-berries-in-the-droplets-picture-id1330367992?b=1&k=20&m=1330367992&s=612x612&w=0&h=NUijvXxjJFHY4WG7qUtFyxrRg8CjbW-nPKUjtWXXHXE=);
+    background-attachment: fixed;
+    background-size:cover; 
+    padding-top: 50px;
+} 
+.content2_image 
+{
+    height: 150px;
+    width:150px;
+    background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/3.jpg);
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.content2_star 
+{
+    height: 50px;
+    width: 50%;
+    background: ;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.content2_para 
+{
+    height: 200px; 
+    width: 100%;
+    background: ;
+}
+.content2_para h2 
+{
+    text-align: center;
+    line-height: 50px;
+}
+.content2_para p 
+{
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+.content2_circle 
+{
+    height: 50px;
+    width: 30%;
+    background: ;
+    margin: auto;
+    display: flex;
+}
+.content2_circle .circle1 
+{
+    height: 20px;
+    width: 20px;
+    background: lightgray;
+    border-radius: 50px;
+    margin-left:30px;
+}
+.content2_images 
+{
+    height: auto;
+    width: 100%;
+    background: ;
+}
+.content_text_1 
+{
+    height: 100px;
+    width: 50%;
+    background: ;
+    margin: auto; 
+}
+.content_text_1 p 
+{
+    font-size: 30px;
+    text-align: center;
+    line-height: 150px;
+}
+.content2_images .content2_text  
+{
+    height: 100px;
+    width: 80%;
+    background: ;
+    margin: auto;
+  
+}
+.content2_text_main 
+{
+    height: 100px;
+    width: 70%;
+    background: ;
+    margin: auto;
+    display: flex;
+}
+.content2_text  .line_1 
+
+    {
+        height: 20px;
+        width: 20%;
+        background: grey;
+        margin: auto;    
+    }
+    .content2_text .line_2 
+    {
+        height: 70px;
+        width: 50%;
+        background: ;
+        margin: auto;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 70px;    
+    }
+    .content2_text  .line_3 
+    {
+        height: 20px;
+        width: 20%;
+        background: grey;
+        margin: auto;
+    }
+    .content2_images .content2_images_main  
+    {
+        height: auto;
+        width: 80%;
+        background: ;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    } 
+    .content2_images_main_image1 
+    {
+        height: 500px;
+        width: 50%;
+         background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/banner-1.jpg); 
+        background-size: 100% 100%;
+        
+    }
+    .content2_images_main_image2 
+    {
+        height: 500px;
+        width: 50%;
+    }
+    .image2_1 
+    {
+        height: 250px;
+        width: 100%;
+        display: flex;
+    }
+    .image2_image1 
+    {
+        height: 250px;
+        width: 45%;
+         background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/banner-2.jpg); 
+        background-size: 100% 100%; 
+        margin-left: 30px;
+        
+    }
+    .image2_image2 
+    {
+        height: 250px;
+        width: 45%;
+         background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/banner-3.jpg);
+        background-size: 100% 100%;
+        margin-left: 30px;
+    }
+    .image2_2 
+    {
+        height: 250px;
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 30px;
+        
+    }
+    .image2_image2_1 
+    {
+        height: 220px;
+        width: 90%;
+        background:url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/banner-4.jpg); 
+        background-size: 100% 100%;
+    }
+
+    .cakes_info
+    {
+        height: auto;
+        width: 100%;
+        background: ;
+    }
+    .cakes_info_main 
+    {
+        height: auto;
+        width: 80%;
+        background: ;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .cakes_info_main .cakes_info_part1 
+    {
+        height: 700px;
+        width: 50%;
+        background: ;
+    } 
+     .cake_info_part1_text1 
+    {
+        height: 100px;
+        width: 100%;
+        background: ;
+        display: flex;
+        padding-top: 50px;
+    }
+    .part1_text1 
+    {
+        height: 70px;
+        width: 60%;
+        background: ;
+    }
+    .part1_text1 p 
+    {
+        font-size: 40px;
+        text-align: center;
+        line-height: 20px;        
+    }
+    .part1_line1 
+    {
+        height: 20px;
+        width: 20%;
+        background: lightgray;
+        
+    }
+    .cake_info_part1_cake1 
+    {
+        height: 200px;
+        width: 100%;
+        background: ;
+        display: flex;
+    }
+    .part1_cake_image1 
+    {
+        height: 150px;
+        width: 30%;
+        background: url(https://d2t7yabstfp7fz.cloudfront.net/2013/06/img-cake-6-300x300.jpg);
+        background-size: 100% 100%;
+    }
+    .part1_text_para1 
+    {
+        height: 200px;
+        width: 70%;
+        background: ;
+    }
+    .para1_text1 
+    {
+        height: 100px;
+        width: 100%;
+        background: ;
+    }
+    .para1_text1 h4 
+    {
+    
+        font-size: 20px;
+    }
+    .part1_price1 
+    {
+        height: 50px;
+        width: 100%;
+        background: ;
+        display: flex;
+    }
+    .part1_price1 .p1 
+    {
+        text-decoration: line-through;
+    }
+    .part1_price1 .p2 
+    {
+        font-size: 20px;
+    }
+    .part1_btn 
+    {
+        height: 50px;
+        width: 100%;
+        background:;
+    } 
+    .part1_btn button 
+    {
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        background: tomato;
+        
+    }
+    .cake_info_part1_cake2 
+    {
+        height: 200px;
+        width: 100%;
+        background: ;
+        display: flex;
+    }
+    .part1_cake_image2 
+    {
+        height: 150px;
+        width: 30%;
+        background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/img-cake-3-300x300.jpg);
+        background-size: 100% 100%;
+    }
+    .part1_text_para2 
+    {
+        height: 200px;
+        width: 70%;
+        background: ;
+    }
+    .para2_text2 
+    {
+        height: 100px;
+        width: 100%;
+        background: ;
+    }
+    .para2_text2 h4 
+    {
+    
+        font-size: 20px;
+    }
+    .part1_price2 
+    {
+        height: 50px;
+        width: 100%;
+        background: ;
+        display: flex;
+    }
+    .part1_price2 .p1 
+    {
+        text-decoration: line-through;
+    }
+    .part1_price2 .p2 
+    {
+        font-size: 20px;
+    }
+    .part1_btn 
+    {
+        height: 50px;
+        width: 100%;
+        background:;
+    } 
+    .part1_btn button 
+    {
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        background: tomato;
+        
+    }
+    .cake_info_part1_cake3
+    {
+        height: 200px;
+        width: 100%;
+        background: ;
+        display: flex;
+    } 
+    .part1_cake_image3 
+    {
+        height: 150px;
+        width: 30%;
+        background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/img-cake-7-300x300.jpg);
+        background-size: 100% 100%;
+    }
+    .part1_text_para3 
+    {
+        height: 200px;
+        width: 70%;
+        
+    }
+    .para3_text3
+    {
+        height: 100px;
+        width: 100%;
+        background: ;
+    }
+    .para3_text3 h4 
+    {
+    
+        font-size: 20px;
+    }
+    .part1_price3 
+    {
+        height: 50px;
+        width: 100%;
+        background: ;
+        display: flex;
+    }
+    .part1_price3 .p1 
+    {
+        text-decoration: line-through;
+    }
+    .part1_price3 .p2 
+    {
+        font-size: 20px;
+    }
+    .part1_btn 
+    {
+        height: 50px;
+        width: 100%;
+        background:;
+    } 
+    .part1_btn button 
+    {
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        background: tomato;
+        
+    }
+    .cakes_info_main .cakes_info_part2 
+    {
+        height: auto;
+        width: 50%;
+        background: ;
+        
+    }
+    .cake_info_part2_text1 
+    {
+        height: 100px;
+        width: 100%;
+        background: ;
+        padding-top: 30px;
+        display: flex;
+    }
+    .part2_text1  
+    {
+        height: 70px;
+        width: 60%;
+        background: ;
+    }
+    .part2_text1 p 
+    {
+        font-size: 40px;
+        text-align: center; 
+        line-height: 60px;        
+    }
+    .part2_line1 
+    {
+        height: 20px;
+        width: 20%;
+        background: lightgray;
+        margin-top: 20px;
+    }
+    .cake_info_part2_cake1 
+    {
+        height: 200px;
+        width: 100%;
+        background: ;
+        display: flex;
+    }
+     .part2_cake_image1 
+    {
+        height: 150px;
+        width: 30%;
+        background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/img-cake-7-300x300.jpg); 
+        background-size: 100% 100%;
+    } 
+     .part2_text_para1 
+    {
+        height: 200px;
+        width: 70%;
+        background: ;
+    }
+    .para2_text1 
+    {
+        height: 100px;
+        width: 100%;
+        background: ;
+    }
+    .part1_text_para1 h4 
+    {
+    
+        font-size: 20px; 
+    }
+    .part2_price1 
+    {
+        height: 50px;
+        width: 100%;
+        background: ;
+        display: flex;
+    }
+    .part2_price1 .p1 
+    {
+        text-decoration: line-through;
+    }
+    .part2_price1 .p2 
+    {
+        font-size: 20px;
+    }
+    .part2_btn 
+    {
+        height: 50px;
+        width: 100%;
+        background:;
+    } 
+    .part2_btn button 
+    {
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        background: tomato;
+        
+    } 
+    .cake_info_part2_cake2 
+    {
+        height: 200px;
+        width: 100%;
+        display: flex;
+    }
+    .part2_cake_image2
+    {
+        height: 150px;
+        width: 30%;
+        background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/img-cake-10-300x300.jpg); 
+        background-size: 100% 100%;
+    } 
+     .part2_text_para2 
+    {
+        height: 200px;
+        width: 70%;
+        background: ;
+    }
+    .para2_text2 
+    {
+        height: 100px;
+        width: 100%;
+        background: ;
+    }
+    .part1_text_para2 h4 
+    {
+    
+        font-size: 20px; 
+    }
+    .part2_price2 
+    {
+        height: 50px;
+        width: 100%;
+        background: ;
+        display: flex;
+    }
+    .part2_price2 .p1 
+    {
+        text-decoration: line-through;
+    }
+    .part2_price2 .p2 
+    {
+        font-size: 20px;
+    }
+    .part2_btn 
+    {
+        height: 50px;
+        width: 100%;
+        background:;
+    } 
+    .part2_btn button 
+    {
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        background: tomato;        
+    } 
+    .cake_info_part2_cake3
+    {
+        height: 200px;
+        width: 100%;
+        display: flex; 
+    } 
+    .part2_cake_image3
+    {
+        height: 150px;
+        width: 30%;
+        background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/img-cake-11-300x300.jpg); 
+        background-size: 100% 100%;
+    } 
+     .part2_text_para3 
+    {
+        height: 200px;
+        width: 70%;
+    }
+    .para2_text3 
+    {
+        height: 100px;
+        width: 100%;
+        background: ;
+    }
+    .part1_text_para3 h4 
+    {
+    
+        font-size: 20px; 
+    }
+    .part2_price3 
+    {
+        height: 50px;
+        width: 100%;
+        background: ;
+        display: flex;
+    }
+    .part2_price3 .p1 
+    {
+        text-decoration: line-through;
+    }
+    .part2_price3 .p2 
+    {
+        font-size: 20px;
+    }
+    .part2_btn 
+    {
+        height: 50px;
+        width: 100%;
+        background:;
+    } 
+    .part2_btn button 
+    {
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        background: tomato;     
+    }      
+    .ceo_info 
+    {
+        height: auto;
+        width: 100%;
+        background:whitesmoke;
+    }
+    .ceo_info_main 
+    {
+        height: auto;
+        width: 80%;
+        background: ;
+        margin: auto;
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ceo_info_main .baker_info 
+    {
+        height: 500px;
+        width: 33.33%;
+        background:;
+        
+    }
+    .baker_info_1 
+    {
+        height: 100px;
+        width: 90%; 
+        background: ;
+        display: flex;
+        padding-top: 20px;
+    }
+    .baker_info_1 h4 
+    {
+        font-size: 30px;
+    }
+    .baker_info_1 .line1 
+    {
+        height: 20px;
+        width: 30%;
+        background: lightgray;
+        margin-top: 8px;
+    }
+    .baker_info_text1 
+    {
+        height: 200px;
+        width: 90%;
+    } 
+    .bakers_bears 
+    {
+        height: 50px;
+        width: 90%;
+        background: ;
+        display: flex;
+        padding-top: 10px;
+    } 
+    .round1 
+    {
+        height: 8px;
+        width: 8px;
+        background: black;
+        border-radius: 50%;
+
+    }
+    .bakers_btn button 
+    {
+        background: tomato;
+        padding: 10px;
+        border: none;
+        border-radius: 30px;
+    }
+    .ceo_info_main .ceo_founder1 
+    {
+        height: 500px;
+        width: 33.33%;
+        background: ;
+    }
+    .ceo_founder1_image 
+    {
+        height:300px;
+        width: 90%;
+        background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/team-1-360x280.jpg);
+        background-size: 100% 100%;
+    }
+    .ceo_founder_info 
+    {
+        height: 150px;
+        width: 90%;
+        background:white ;
+        text-align: center;
+    }
+    .social_media1 
+    {
+        height: 50px;
+        width: 90%;
+        text-align: center;
+        background: white;
+    }
+    .ceo_info_main .ceo_founder2 
+    {
+        height: 500px;
+        width: 33.33%;
+        background: ;
+    }
+    .ceo_founder2_image 
+    {
+        height: 300px;
+        width: 90%;
+        background: url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/team-2-360x280.jpg);
+        background-size: 100% 100%;
+    }
+    .blog_news 
+    {
+        height: auto;
+        width: 100%;
+        background: ;
+        
+    } 
+    .blog_news_main 
+    {
+        height: auto;
+        width: 80%;
+        background: ;
+        margin: auto;
+    } 
+    .blog_news_title 
+    {
+        height: 200px;
+        width: 100%;
+        background: ;
+    }
+    .title1 p 
+    {
+        text-align: center;
+        line-height: 100px;
+        font-size: 25px; 
+        font-style: italic;
+    }
+    .title2 
+    {
+        height: 100px;
+        width: 60%;
+        background: ;
+        margin: auto;
+        display: flex;
+    }
+    .title2 .line1 
+    {
+        height: 20px;
+        width: 20%;
+        background: lightgray;
+        margin-left: 30px;
+        
+    }
+    .text1 
+    {
+        font-size: 30px; 
+        margin-left: 30px;
+    }
+    .blog_news_images 
+    {
+        height: auto;
+        width: 100%;
+        background: ;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .images_image1 
+    {
+        height: 450px;
+        width: 50%;
+        background: ;
+    }
+    .images_image1_image 
+    {
+        height: 450px; 
+        width: 90%;
+        /* background: rgb(0, 0, 0, 0.46) url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/new-large-555x500.jpg) ; */
+        background-size: 100% 100%;
+        background: linear-gradient(rgba(0,0,0,0.46), rgba(0,0,0,0.67)), url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/new-large-555x500.jpg);
+        
+    }
+    .date 
+    {
+        height: 150px;
+        width: 100%;
+        background: ;
+    }
+    .date p 
+    {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+    }
+    .date p span 
+    {
+        color: tomato;
+    }
+    .images_para 
+    {
+        height: 200px;
+        width: 100%;
+        background: ;        
+    }
+    .images_para h4 
+    {
+        font-size: 30px;
+        color: white;
+        
+    } 
+    .images_btn 
+    {
+        height: 50px;
+        width: 100%;
+        background: ; 
+    }
+    .images_btn button 
+    {
+        padding: 15px;
+        border: none;
+        border-radius: 30px;
+        background: tomato;  
+        color: white;      
+    }
+    .images_image2 
+    {
+        height: auto;
+        width: 50%;
+        background: ;
+    }
+    .images_image2_image1 
+    {
+        height:200px;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.46), rgba(0,0,0,0.67)), url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/new-small-1-555x235.jpg);
+        background-size: 100% 100%; 
+    } 
+    .date1 
+    {
+        height: 50px;
+        width: 100%;
+        background: ;
+    }
+    .date1 p 
+    {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+    }
+    .date1 p span 
+    {
+        color: tomato;
+    }
+    .images_para1 
+    {
+        height: 100px;
+        width: 100%;
+        background: ;        
+    }
+    .images_para1 h4 
+    {
+        font-size: 20px;
+        color: white;
+        
+    } 
+    .images_btn 
+    {
+        height: 30px;
+        width: 100%;
+        background: ; 
+    }
+    .images_btn button 
+    {
+        padding: 10px;
+        border: none;
+        border-radius: 30px;
+        background: tomato;  
+        color: white;      
+    }
+    .images_image2_image2 
+    {
+        height: 200px;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.46), rgba(0,0,0,0.67)), url(https://d2t7yabstfp7fz.cloudfront.net/2017/06/new-small-2-555x235.jpg);
+        background-size: 100% 100%;
+        margin-top: 50px;
+    }
+    .logos 
+    {
+        height: auto;
+        width: 100%;
+        background: whitesmoke;
+        margin-top: 50px;
+    }
+    .logos_main 
+    {
+        height: auto;
+        width: 80%;
+        background: ;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .logos_main .logos1 
+    {
+        height: 200px;
+        width: 16.66%;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .logos_main .logos2 
+    {
+        height: 200px;
+        width: 16.66%;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .logos_main .logos3 
+    {
+        height: 200px;
+        width: 16.66%;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .logos_main .logos4 
+    {
+        height: 200px;
+        width: 16.66%;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .logos_main .logos5 
+    {
+        height: 200px;
+        width: 16.66%;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .logos_main .logos6 
+    {
+        height: 200px;
+        width: 16.66%;
+        /* margin-right: 20px; */
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .maps 
+    {
+        height: 600px;
+        width: 100%;
+        background: url(https://www.google.com/maps/d/thumbnail?mid=15h5o9uaLz5Z1CLKb4oFgNtcVrUk);
+        background-size: 100% 100%;
+        cursor: pointer;
+    }
+    .maps .forms 
+    {
+        height: 600px;
+        width: 30%;
+        background: rgb(0, 0, 0, 0.46);
+        margin-left: 30px;
+    } 
+    .forms h3 
+    {
+        color: white;
+    }
+    .forms span 
+    {
+        color: red;
+    }
+    .fomrs_texts 
+    {
+        height: 200px;
+        width: 100%;
+        background: ;
+        padding-top: 30px;
+    }
+    .fomrs_texts h4 
+    {
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+    .fomrs_texts p 
+    {
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .form 
+    {
+        height: 350px;
+        width: 100%;
+        background: ;
+    }
+    .form_btn 
+    {
+        height: 50px;
+        width: 100%;
+        background: ;
+        text-align: center;
+    }
+    .form_btn button 
+    {
+        padding: 10px;
+        border: none;
+        border-radius: 30px;
+        background: tomato;
+    }
+
+    .footer 
+    {
+        height: auto;
+        width: 100%;
+        background: black;
+    }
+    .footer_main 
+    {
+        height: auto;
+        width: 90%;
+        background: ;
+        margin: auto;
+    }
+    .footer_main .footer_part1 
+    {
+        height: auto;
+        width: 100%;
+        background: ;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer_part1_text1 
+    {
+        height: 300px;
+        width: 40%;
+        background: ;
+        padding-top: 30px;
+        
+    }
+    .footer_part1_text1 h4 ,p ,h2 
+    {
+        margin-top: 20px;
+        color: white;
+    }
+    .footer_part1_logo 
+    {
+        height: 300px;
+        width: 20%;
+        background: ;
+        
+    }
+    .footer_part1_logo .vanila_logo 
+    {
+        height: 150px;
+        width: 60%;
+        background: url(http://warethemes.com/wordpress/bakery/wp-content/themes/bakery/assets/images/logo-1.png);
+        background-size: 100% 100%; 
+        margin: auto;
+        margin-top: 60px;
+        
+    }
+    .footer_part1_text2 
+    {
+        height: 300px;
+        width: 40%;
+        background: ;
+    }
+    .footer_part1_text2_1 
+    {
+        height: 170px;
+        width: 100%;
+        background: ;
+        padding-top:30px; 
+    }
+    .footer_part1_sub 
+    {
+        height: 50px;
+        width: 100%;
+        background: ;
+    } 
+    .email 
+    {
+        height: 40px;
+        width: 90%;
+        background: gainsboro;
+        border-radius: 20px;
+        display: flex;
+    }
+    .email input 
+    {
+        font-size: 18px; 
+        color: white;
+    } 
+     .footer_part2 
+    {
+        height: auto;
+        width: 100%;
+        background: white; 
+    } 
+    .footer_part2_main 
+    {
+        height: auto;
+        width: 90%;
+        background: ;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .footer_part2_part1 
+    {
+        height: 300px;
+        width: 50%;
+        background: ;
+    }
+    .footer_part1_main 
+    {
+        height: 300px;
+        width: 80%;
+        background: ;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer_images 
+    {
+        height: 300px;
+        width: 50%;
+        background: ;
+    }
+    .footer_images_text 
+    {
+        height: 70px;
+        line-height: 70px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .footer_image1 
+    {
+        height: 80px;
+        background: url(https://d2t7yabstfp7fz.cloudfront.net/2019/09/thanhtoan.png);
+        background-size: 100% 100%;
+    }
+    .footer_time 
+    {
+        height: 300px;
+        width: 50%;
+        background: ;
+    }
+    .footer_time_title 
+    {
+        height: 70px;
+        line-height: 70px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    } 
+    .footer_time1 p
+    {
+        text-align: center;
+        color: grey;
+    }
+    .footer_part2_part2
+    {
+        height: auto;
+        width: 50%;
+        background: ;
+    }
+    .footer_part2_main 
+    {
+        height: auto;
+        width: 80%;
+        background: ;
+    }
+    .footer1_text 
+    {
+        height: 300px;
+        width: 50%;
+        background: ;
+    }
+    .footer1_text1 
+    {
+        line-height: 70px;
+        font-weight: bold;
+    }
+    .footer1_order p 
+    {
+        color: grey;
+    }
+    .footer1_icons
+    {
+        height: 300px;
+        width: 50%;
+        background: ;
+    }
+    .footer1_text_icons 
+    {
+        height: 150px;
+        background: ;
+    } 
+    .footer1_text_icons p
+    {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        line-height: 70px;
+        margin-top: 0px;
+    }
+    .icons_title 
+    {
+        line-height: 70px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .footer1_text_icons i 
+    {
+        margin-left: 25px;
+        cursor: pointer;
+        transition: 1s;
+        font-weight: bold;
+    }
+    .footer1_text_icons i:hover 
+    {
+        color: tomato; 
+    }
+    .footer1_last 
+    {
+        height: 50px;
+        background: ;
+    }
+    .footer1_last span 
+    {
+        color: tomato;
+        cursor: pointer;
+    } 
+    .last 
+    {
+        height: 15px;
+        width: 100%;
+        background: black;
+    }

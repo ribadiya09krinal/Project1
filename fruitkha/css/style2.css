@@ -1,0 +1,470 @@
+body
+{
+	overflow-x: hidden;
+}
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.main
+{
+	height: 700px;
+	width: 100%;
+	background: url(https://media.istockphoto.com/photos/grape-picture-id1153782925?k=20&m=1153782925&s=612x612&w=0&h=o7xrB10YzfBAoqBYcGTXJzSeCZFKyK3VpqCP3Gs_MnM=);
+	background-size: cover; 
+	background-attachment: fixed; 
+}
+.header 
+{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap; 
+}
+.header .h1 
+{
+	height: auto; 
+	width: 30%; 
+	
+}
+.header .h1 .hedr1
+{
+	font-size: 50px;
+	font-weight: bold;
+	font-style: italic; 
+	color: orange;
+}
+.header .h1 .hedr2
+{
+	font-size: 15px;
+	font-style: italic; 
+	color: orange;
+}
+.header .h2
+{
+	height: auto;
+	width: 50%;
+
+}
+ .bar
+{
+	color: #fff;
+	display:none;
+}
+.header .h2 ul li
+{
+	list-style: none;
+	color: white;
+	display: inline;
+	line-height: 50px;
+	margin-right: 20px;
+}
+.header .h2 ul li a  
+{
+	text-decoration: none;
+	color: white;
+	transition: .5s;
+}
+.h2 ul li a:hover
+{
+	color: orange;
+}
+.header .h3
+{
+	height: auto;
+	width: 20%;
+	display: flex;
+
+}
+.h3 .ic1
+{
+	font-size: 25px;
+	color: white;
+	margin-right: 20px;
+	margin-left: 20px;
+	line-height: 60px;
+	cursor: pointer;
+	transition: .5s;
+}
+.h3 .ic1:hover
+{
+	color: orange;
+}
+.fresh
+{
+	color: orange;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 70px;
+}
+.dsf
+{
+	color: white;
+	font-weight:bold;
+	font-size: 80px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 70px; 
+}
+.nav
+{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	justify-content: center;
+}
+.nav .frco
+{
+	height: auto;
+	width: 10%;
+	background:orange;
+	line-height: 50px;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 50px;
+	transition: .5s; 
+}
+.frco:hover
+{
+	background: black;
+	color: orange;
+}
+.nav .con
+{
+	height: 50px;
+	width: 10%;
+	background: transparent;
+	border: 2px solid orange;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50px;
+	transition: .5s; 
+}
+.con:hover
+{
+	background: orange;
+	color: black;
+}
+.content
+{
+	height: auto;
+	width: 100%;
+	background: whitesmoke; 
+	display: flex;
+	flex-wrap: wrap;
+}
+.trk
+{
+	height: 200px;
+	width: 33.33%;
+    display: flex;
+}
+.tric
+{
+	height: 70px;
+	width: 70px;
+	font-size: 50px;
+	border: 2px dotted black;
+	padding: 5px;
+	margin:20px;
+	border-radius: 50px; 
+}
+.te1
+{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.te2
+{
+	font-size: 15px;
+	color: skyblue;
+}
+.phn
+{
+	height: 200px;
+	width: 33.33%;
+	display: flex;
+	
+}
+.pn1
+{
+	height: 70px;
+	width: 70px;
+	font-size: 50px;
+	padding: 10px;
+	margin: 18px;
+	border: 2px dotted black;
+	border-radius: 50px;
+	
+}
+.te3
+{
+	font-size: 30px;
+	margin-top: 30px;
+}
+.te4
+{
+	font-size: 15px;
+	color: skyblue;
+}
+
+.rfnd
+{
+	height: 200px;
+	width: 33.33%;
+	display: flex;
+}
+.rnd{
+	height: 70px;
+	width: 70px;
+	font-size: 50px;
+	padding: 7px;
+	margin: 20px;  
+	border: 2px dotted black;
+	border-radius: 50px;
+}
+.te5 
+{
+	font-size: 30px;
+	margin-top: 30px;
+}
+.te6
+{
+	font-size: 15px;
+	color: skyblue;
+}
+
+.slider
+{
+	height: auto;
+	width: 100%;
+}
+.slider .part1{
+
+	height: 150px;
+	width: 100%;
+}
+.slider .part1 h1
+{
+	text-align: center;
+	font-size: 50px; 
+}
+.slider .part1 h1 span  
+{
+	color: orange;
+	
+}
+.slider .part1 p
+{
+	text-align: center;
+}
+.slider .part2{ 
+
+	height: auto; 
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.slider .part2 .card1{
+
+	height: 400px;
+	width: 300px;
+	background: #fff;
+	margin-left: 30px; 
+	box-shadow: 0px 0px 10px black;
+}
+.slider .part2 .card1 .ig{
+
+	height:250px;
+	width: 100%;
+	overflow: hidden;
+}
+.slider .part2 .card1 .prs{
+
+	height:100px;
+	width: 100%;
+	
+	text-align: center;
+	padding-top: 20px;
+}
+.slider .part2 .card1 .add{ 
+
+	height:50px;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+.add button{
+padding: 8px;
+border-radius: 30px;
+border: none;
+background:rgb(255, 68, 0);
+
+}
+.slider .part2 .card2{
+
+	height: 400px;
+	width: 300px;
+	background: #fff;
+	margin-left: 30px; 
+	box-shadow: 0px 0px 10px black;
+}
+.slider .part2 .card2 .ig1{
+	height:250px;
+	width: auto;
+	background-size: cover; 
+}
+.slider .part2 .card2 .prs1 
+{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+.slider .part2 .card2 .add1 
+{
+	text-align: center;
+}
+.add1 button{ 
+
+	padding: 8px;
+	border-radius: 30px;
+	background: rgb(255, 68, 0);
+	border: none;
+}
+.slider .part2 .card3{
+
+	height: 400px;
+	width: 300px;
+	background: #fff;
+	 margin-left: 30px; 
+	box-shadow: 0px 0px 10px black;
+}
+.slider .part2 .card3 .ig2{
+
+	height:250px;
+	width: auto;
+	background-size: cover;
+}
+.slider .part2 .card3 .prs2{
+
+	height:100px;
+	width: 100%;
+	
+	text-align: center;
+	padding-top: 20px;
+}
+.slider .part2 .card3 .add2{
+
+	height:50px;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+.add2 button
+{
+padding: 8px;
+border-radius: 30px;
+border: none;
+background:rgb(255, 68, 0);
+}
+.strobarry 
+{
+	height: 500px;
+	width: 100%;
+	background: lightgray;
+	margin-top: 150px;
+	padding-top: 50px;
+}
+.strobarry  .part_strobarry 
+{
+	height: 400px;
+	width: 80%;
+	background: yellow;
+	margin: auto;
+	display: flex;
+}
+.part_strobarry  .first_part 
+{
+	height: 400px;
+	width: 50%;
+	padding-top: 25px; 
+}
+.first_part_small 
+{
+	height: 350px;
+	width: 350px;
+	background: url(https://technext.github.io/fruitkha/assets/img/a.jpg);
+	background-size: 100% 100%;
+	margin: auto;
+	position: relative;	
+}
+.first_part_round 
+{
+	height: 90px;
+	width: 90px;
+	background: orange;
+	border-radius: 50px;
+	position: absolute;
+	top: -20px;
+	padding-top: 10px;
+	border: 7px solid rgba(255, 255,255, 0.4);
+	background-origin: border-box;
+}
+.first_part_round  h2 ,p
+{
+	text-align: center;	
+}
+.part_strobarry .second_part 
+{
+	height: 400px;
+	width: 50%;
+	background: salmon;
+	padding-top: 25px;
+}
+.second_part .second_part_small 
+{
+	height: 350px;
+	width: 350px;
+	margin: auto;
+	background: saddlebrown;
+}
+.second_part_small .text 
+{
+	height: 200px;
+	background: sandybrown;
+}
+.second_part_small .boxes 
+{
+	height: 100px;
+	background: seagreen;
+	display: flex;
+}
+.boxes .box1 ,.box2 ,.box3 ,.box4
+{
+	height: 100px;
+	width: 25%;
+	border: 1px solid black;
+	margin-left: 5px;
+}
+.boxes h2 
+{
+	text-align: center;
+	margin-top: 15px;
+}
+.second_part_small .box_btn 
+{
+	height: 50px;
+	background: orange;
+}

@@ -1,0 +1,158 @@
+@media(max-width:1100px)
+{
+    .main .part1{width:50%;}
+    .part1 .text2 .p1{width: 50%;}
+    .part1 .text2 .p2 {width: 50%;}
+    .main .part2{width:50%;} 
+
+    .content .con1{width: 50%;}
+    .content .con2{width: 50%;} 
+
+    .contain .menu_part2 {width: 100%;}
+    .contain .menu_part2 .con_menu_part{width: 100%;}
+    .contain .menu_part2 .con_menu_part .first{width: 50%;}
+    .contain .menu_part2 .con_menu_part .second{width: 50%;}
+    .contain .menu_part2 .con_menu_part .third{width: 50%;}
+
+
+    .contain .menu_part2 {width: 100%;}
+    .contain .menu_part2 .con_menu_part{width: 100%;} 
+    .contain .menu_part2 .con_menu_part .first{width: 50%;}
+    .contain .menu_part2 .con_menu_part .second{width:50%;}
+    .contain .menu_part2 .con_menu_part .third{width: 50%;}
+    .contain .menu_part2 .con_menu_part .s_first{width: 50%;} 
+    .contain .menu_part2 .con_menu_part .s_second{width: 50%;} 
+    .contain .menu_part2 .con_menu_part .s_third{width: 50%;} 
+    
+    .chef_part .main_chef .chef1 {width: 50%;}
+    .chef_part .main_chef .chef2{width: 50%;}
+    .chef_part .main_chef .chef3{width: 50%;}
+    .chef_part .main_chef .chef4{width: 50%;}
+
+    .image_form .image_form_main .images{width: 50%;} 
+    .image_form .image_form_main .form {width: 50%;}
+
+    .footer .footer_main .share {width: 50%;} 
+    .footer .footer_main .hours {width: 50%;} 
+    .footer .footer_main .newsltr {width:50%;} 
+    .footer .footer_main .insta {width: 50%;} 
+
+}
+@media(max-width:900px)
+{
+    .main .part1{width:60%;}
+    .part1 .text2 .p1{width: 50%;}
+    .part1 .text2 .p2 {width: 50%;}
+    .main .part2{width:40%;}
+
+    .content .con1{width: 40%;}
+    .content .con2{width: 60%;}
+
+    .contain .menu_part2 {width: 100%;}
+    .contain .menu_part2 .con_menu_part{width: 100%;} 
+    .contain .menu_part2 .con_menu_part .first{width: 50%;}
+    .contain .menu_part2 .con_menu_part .second{width:50%;}
+    .contain .menu_part2 .con_menu_part .third{width: 50%;}
+    .contain .menu_part2 .con_menu_part .s_first{width: 50%;} 
+    .contain .menu_part2 .con_menu_part .s_second{width: 50%;} 
+    .contain .menu_part2 .con_menu_part .s_third{width: 50%;} 
+
+   
+   
+    .chef_part .main_chef .chef1 {width: 50%;}
+    .chef_part .main_chef .chef2{width: 50%;}
+    .chef_part .main_chef .chef3{width: 50%;}
+    .chef_part .main_chef .chef4{width: 50%;}
+
+    .image_form .image_form_main .images{width: 50%;} 
+    .image_form .image_form_main .form {width: 50%;}
+
+    .footer .footer_main .share {width: 50%;} 
+    .footer .footer_main .hours {width: 50%;} 
+    .footer .footer_main .newsltr {width:50%;} 
+    .footer .footer_main .insta {width: 50%;} 
+
+     
+}
+@media(max-width:700px) 
+{
+    .main .part1{width:100%;}
+    .part1 .text2 .p1{width: 100%;}
+    .part1 .text2 .p2 {width: 100%;}
+    .main .part2{width:100%;}
+
+    .content .con1{width: 100%;}
+    .content .con2{width: 100%;} 
+
+    .rcp1 p{font-size: 10px;}
+    .rcp2 p{font-size: 10px;}
+    .rcp3 p{font-size: 10px;}
+
+    .contain .menu_part2 {width: 100%;}
+    .contain .menu_part2 .con_menu_part{width: 100%;} 
+    .contain .menu_part2 .con_menu_part .first{width: 100%;}
+    .contain .menu_part2 .con_menu_part .second{width: 100%;}
+    .contain .menu_part2 .con_menu_part .third{width: 100%;}
+
+    .contain .menu_part2  .con_menu_part {width: 100%;}
+    .contain .menu_part2  .con_menu_part .s_first {width: 100%;}
+    .contain .menu_part2  .con_menu_part .s_second{width: 100%;}
+    .contain .menu_part2  .con_menu_part .s_third {width: 100%;}
+
+    .chef_part .main_chef .chef1 {width: 50%;}
+    .chef_part .main_chef .chef2{width: 50%;}
+    .chef_part .main_chef .chef3{width: 50%;}
+    .chef_part .main_chef .chef4{width: 50%;}
+
+    .image_form .image_form_main .images{width: 100%;} 
+    .image_form .image_form_main .form {width: 100%;}
+
+    .footer .footer_main .share {width: 50%;} 
+    .footer .footer_main .hours {width: 50%;} 
+    .footer .footer_main .newsltr {width:50%;} 
+    .footer .footer_main .insta {width: 50%;} 
+
+
+}
+@media(max-width:500px) 
+{
+    .main .part1{width:100%; height: 500px;}
+    .part1 .text2 .p1{width: 100%;}
+    .part1 .text2 .p2 {width: 100%;} 
+    .main .part2{width:100%;}
+
+    .part1 .text1{height: 80px;}
+
+    .main1 .content .con1{width: 100%; margin-top: 20px;}
+    .main1 .content .con2{width: 100%;}
+
+    .recipe .rcp1 img {height: 100px;width: 100px; background-size:100% 100%;} 
+
+    .rcp1 p{font-size: 10px;}
+    .rcp2 p{font-size: 10px;}
+    .rcp3 p{font-size: 10px;} 
+    
+    .contain .menu_part2 {width: 100%;}
+    .contain .menu_part2 .con_menu_part{width: 100%;}
+    .contain .menu_part2 .con_menu_part .first{width: 100%;}
+    .contain .menu_part2 .con_menu_part .second{width: 100%;}
+    .contain .menu_part2 .con_menu_part .third{width: 100%;}
+
+    .contain .menu_part2  .con_menu_part {width: 100%;}
+    .contain .menu_part2  .con_menu_part .s_first {width: 100%;}
+    .contain .menu_part2  .con_menu_part .s_second{width: 100%;}
+    .contain .menu_part2  .con_menu_par2 .s_third {width: 100%;} 
+
+    .chef_part .main_chef .chef1 {width: 100%;}
+    .chef_part .main_chef .chef2{width: 100%;}
+    .chef_part .main_chef .chef3{width: 100%;}
+    .chef_part .main_chef .chef4{width: 100%;}
+
+    .image_form .image_form_main .images{width: 100%;} 
+    .image_form .image_form_main .form {width: 100%;}
+
+    .footer .footer_main .share {width: 100%;} 
+    .footer .footer_main .hours {width: 100%;} 
+    .footer .footer_main .newsltr {width: 100%;} 
+    .footer .footer_main .insta {width: 100%;} 
+}                                                                 
